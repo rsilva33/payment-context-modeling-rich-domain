@@ -1,0 +1,17 @@
+﻿namespace PaymentContext.Shared.Entities;
+
+public abstract class Entity : Notifiable
+
+{
+    protected Entity()
+    {
+        Id = Guid.NewGuid();
+    }
+
+    public Guid Id { get; set; }
+
+    public void AddNotifications(Notification notifications)
+    {
+        throw new NotImplementedException();
+    }
+}

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="flunt" Version="1.0.5" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+    <ProjectReference Include="..\PaymentContext.Shared\PaymentContext.Shared.csproj" />
+   </ItemGroup>
+
+	<ItemGroup>
+		<Using Include="PaymentContext.Domain.Enums" />
+		<Using Include="PaymentContext.Domain.ValueObjects" />
+		<Using Include="PaymentContext.Shared.ValueObjects" />
+		<Using Include="PaymentContext.Shared.Entities" />
+		<Using Include="Flunt.Notifications" />
+	</ItemGroup>
+
+
+</Project>
