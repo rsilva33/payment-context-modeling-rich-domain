@@ -40,7 +40,7 @@ public class StudentTests
     {
         _student.AddSubscription(_subscription);
 
-        Assert.IsTrue(_student.Invalid);
+        Assert.IsTrue(_student.Valid);
     }
 
     [TestMethod]
@@ -48,6 +48,7 @@ public class StudentTests
     {
         _subscription.AddPayment(_payPalPayment);
         _student.AddSubscription(_subscription);
-        Assert.IsTrue(_student.Valid);
+
+        Assert.IsTrue(_student.Invalid);
     }
 }

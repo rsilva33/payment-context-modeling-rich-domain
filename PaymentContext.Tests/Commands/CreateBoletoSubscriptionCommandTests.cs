@@ -1,6 +1,4 @@
-﻿using PaymentContext.Domain.Commands;
-
-namespace PaymentContext.Tests.Commands;
+﻿namespace PaymentContext.Tests.Commands;
 
 [TestClass]
 public class CreateBoletoSubscriptionCommandTests

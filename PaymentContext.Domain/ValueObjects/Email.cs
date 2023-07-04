@@ -1,6 +1,4 @@
-﻿using System.Diagnostics.Contracts;
-
-namespace PaymentContext.Domain.ValueObjects;
+﻿namespace PaymentContext.Domain.ValueObjects;
 
 public class Email : ValueObject
 {

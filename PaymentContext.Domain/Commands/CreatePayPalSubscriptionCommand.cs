@@ -1,7 +1,7 @@
 ﻿namespace PaymentContext.Domain.Commands;
 
-//Command pega a informacao de um lugar e envia para outro
-public class CreatePayPalSubscriptionCommand
+//Command takes information from one place and sends it to another.
+public class CreatePayPalSubscriptionCommand : Notifiable, ICommand
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }
@@ -24,4 +24,9 @@ public class CreatePayPalSubscriptionCommand
     public string State { get; set; }
     public string Country { get; set; }
     public string ZipCode { get; set; }
+
+    public void Validate()
+    {
+        throw new NotImplementedException();
+    }
 }

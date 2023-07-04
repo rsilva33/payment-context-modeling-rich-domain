@@ -1,6 +1,4 @@
-﻿using PaymentContext.Domain.Entities;
-
-namespace PaymentContext.Domain.Repositories;
+﻿namespace PaymentContext.Domain.Repositories;
 
 public interface IStudentRepository
 {

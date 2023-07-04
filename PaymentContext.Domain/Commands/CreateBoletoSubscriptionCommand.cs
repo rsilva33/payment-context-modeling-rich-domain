@@ -1,6 +1,4 @@
-﻿using PaymentContext.Shared.Commands;
-
-namespace PaymentContext.Domain.Commands;
+﻿namespace PaymentContext.Domain.Commands;
 
 public class CreateBoletoSubscriptionCommand : Notifiable, ICommand
 {

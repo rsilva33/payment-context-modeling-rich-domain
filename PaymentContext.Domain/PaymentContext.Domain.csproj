@@ -20,7 +20,13 @@
 		<Using Include="PaymentContext.Domain.ValueObjects" />
 		<Using Include="PaymentContext.Shared.ValueObjects" />
 		<Using Include="PaymentContext.Shared.Entities" />
+		<Using Include="PaymentContext.Domain.Commands" />
+		<Using Include="PaymentContext.Domain.Entities" />
+		<Using Include="PaymentContext.Domain.Repositories" />
+		<Using Include="PaymentContext.Shared.Commands" />
+		<Using Include="PaymentContext.Shared.Handlers" />
 		<Using Include="Flunt.Notifications" />
+		<Using Include="System.Linq.Expressions"/>
 	</ItemGroup>
 
 
